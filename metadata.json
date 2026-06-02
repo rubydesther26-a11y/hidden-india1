@@ -1,0 +1,6 @@
+{
+  "name": "Hidden India AI",
+  "description": "Travel Like a Local, Not Like a Tourist. Discover hidden gems, village festivals, and authentic cultural experiences throughout India.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

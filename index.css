@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Libre Baskerville", Georgia, serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --color-warmbg: #f8f7f2;
+  --color-olive: #5a5a40;
+  --color-brand-orange: #D47E56;
+}
+
+/* Dot Grid background to represent organic craft paper/canvas */
+.dot-grid {
+  background-image: radial-gradient(#d1d1ca 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Card custom card-shadow */
+.card-shadow {
+  box-shadow: 0 4px 24px -4px rgba(0, 0, 0, 0.04), 0 1px 3px rgba(0, 0, 0, 0.02);
+}
+
+/* Glass panel */
+.glass {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(12px);
+}
+
+/* Custom Scrollbar behavior */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Smooth Leaflet integration rules */
+.leaflet-container {
+  font-family: "Inter", sans-serif !important;
+  background-color: #f1f0e8 !important;
+}
+
+.custom-map-marker-gem {
+  background: transparent !important;
+  border: none !important;
+}
+
+.custom-map-marker-exp {
+  background: transparent !important;
+  border: none !important;
+}
+
